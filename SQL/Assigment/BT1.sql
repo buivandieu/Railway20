@@ -1,8 +1,9 @@
+
 CREATE DATABASE Trainee;
 USE Trainee;
 
-CREATE TABLE Trainee (
-		TraineeID        INT,
+CREATE TABLE  Trainee (
+		TraineeID        INT PRIMARY KEY AUTO_INCREMENT ,
 		Full_Name        VARCHAR(50),
         Birth_Day        DATE,
         Gender           VARCHAR(50),
@@ -10,6 +11,6 @@ CREATE TABLE Trainee (
         ET_Gmath         INT,
         ET_English       INT,
         Training_class   INT,
-        Evaluation_Notes VARCHAR(50)
+        Evaluation_Notes VARCHAR(200)
 );
         
